@@ -31,9 +31,10 @@ nav .containmenu{
     border:solid 2px rgb(194, 200, 22);
     background-color: rgb(157, 9, 9);
     transition:color 300ms;
-    transition:background-color 300ms;
+    transition:background-color .5s;
     transition:box-shadow .5s;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .contain-img{
 
@@ -49,6 +50,8 @@ nav .containmenu{
     box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 30px 20px 22px -30px rgba(0,0,0,0);
     color:red;
     background-color: yellow;
+    border: solid 2px red;
+
 }
  .containmenu a{
     text-decoration: none;
@@ -58,24 +61,97 @@ nav .containmenu{
 .containmenu .active{
     color:red;
     background-color: yellow;
+    border: solid 2px red;
     
 }
 
+hr{
+    border: solid 1px yellow;
+    margin:0
+}
 
 /* Fin du header */
 
 /* Debut du main */
+main{
+    background-image: url(../img/backgrooundDBZ.jpg);
+    background-size: cover;
+}
 .pasfinis{
     margin: 0;
     padding-bottom:40rem;
-    background-color: #F6FF33;
+
 }
 h1{
     margin-top: 0;
-    padding-top: 3rem;
     text-align: center;
-
 }
+
+
+/* Début sign-up */
+.contain_titre_sign-up{
+    padding-top:3rem;
+    color:red;
+}
+.contour_sign-up{
+    background-color: rgba(255, 255, 0, 0.417) ;
+    border-radius: 0.5rem;
+    border: solid 2px red;
+}
+h1 .contour_sign-up{
+    background-color: rgba(255, 255, 0, 0.574) ;
+}
+.titre_sign-up{
+    margin: auto;
+    width: 20rem;
+}
+.contain_form_sign-up{
+    padding-bottom: 20rem;
+}
+.form_sign-up{
+    text-align: center;
+    width: 24rem;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 10rem;
+    font-size: 1.3rem;
+    color:red;
+}
+.input_form_sign-up{
+    border-radius: .5rem;
+    border: solid 2px red;
+    font-size: 1.2rem;
+    text-align: center;
+    color: red;
+}
+.input_form_sign-up:focus{
+    outline-color:red;
+    color: red;
+}
+.input_form_sign-up::placeholder{
+    color: rgba(255, 2, 2, 0.441);
+}
+.submit_sign_up{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(255, 255, 0, 0.417) ;
+    color:red ;
+    width: 13rem;
+    font-size: 1.8rem;
+    transition:color .5s;
+    transition:background-color .5s;
+}
+.submit_sign_up:hover{
+    transition:color .5s;
+    transition:background-color .5s;
+    background-color: rgba(255, 0, 0, 0.727);
+    color: yellow;
+    
+}
+/* Fin Sign-up */
+
+
+
 /* fin du main */
 
 /* Debut du footer */
