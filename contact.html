@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+        <h1>Formulaire de contact</h1>
+    <main>
+        <form action="/submit" method="POST">
+        
+            <p class="champs">Champs obligatoires *</p>
+            <label for="nom">Pseudo*</label>
+            <input type="text" id="pseudo" name="pseudo" required>
+
+        </form>
+        <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" cols="33" placeholder="Saisissez votre message"
+                    required></textarea>
+    </main>
+
+</body>
+</html>
