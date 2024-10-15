@@ -1,6 +1,91 @@
-.contain{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+.flex{
+    display:flex;
 }
-.menu{
-    display: flex;
+body{
+
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
 }
+/* Début du header */
+header{
+    background-color: #252424;
+
+}
+
+nav .containmenu{    
+
+    padding:1.5rem;
+    justify-content: center;
+
+}
+
+.containmenu .menu{
+    color: yellow;
+    margin: 0 3rem; 
+    padding: 1rem 2rem ;
+    border-radius: .5rem;
+    border:solid 2px rgb(194, 200, 22);
+    background-color: rgb(157, 9, 9);
+    transition:color 300ms;
+    transition:background-color 300ms;
+    transition:box-shadow .5s;
+    text-transform: uppercase;
+}
+.contain-img{
+
+    justify-content: center;
+}
+.dbzsize{
+    margin-top: 1rem;
+    width: 25rem;
+
+}
+.menu:hover{ 
+
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 30px 20px 22px -30px rgba(0,0,0,0);
+    color:red;
+    background-color: yellow;
+}
+ .containmenu a{
+    text-decoration: none;
+    color: black;
+}
+
+.containmenu .active{
+    color:red;
+    background-color: yellow;
+    
+}
+
+
+/* Fin du header */
+
+/* Debut du main */
+.pasfinis{
+    margin: 0;
+    padding-bottom:40rem;
+    background-color: #F6FF33;
+}
+h1{
+    margin-top: 0;
+    padding-top: 3rem;
+    text-align: center;
+
+}
+/* fin du main */
+
+/* Debut du footer */
+
+footer{
+    color: yellow;
+    background-color: #252424;
+}
+footer p{
+    margin-top: 0;
+}
+
+/* Fin du footer */
