@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inscription</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
 
     <header>
-  
+
         <nav class=" containnav">
             <section class="flex contain-img">
                 <img class="dbzsize" src="img/DBZ_Logo.png" alt="Logo D">
             </section>
-           
+
             <section class="flex containmenu">
-                
+
                 <a class="menu" href="index.html">Home</a>
                 <a class="menu active" href="sign-up.html">Sign-up</a>
                 <a class="menu" href="sign.html">Sign</a>
@@ -24,46 +26,56 @@
             </section>
 
         </nav>
+        <hr>
     </header>
-    <main class="pasfinis">
-        <h1>Inscription</h1>
-    <form method="POST">
-  
-        <div>
-        <label for="">Nom</label>
-        <input type="text" placeholder="Votre Nom">
+    <main >
+ 
+        <div class="contain_titre_sign-up">
+            <h1 class="titre_sign-up contour_sign-up">Inscription</h1>
         </div>
-<br>
-        <div>
-            <label for="">Pseudo</label>
-            <input type="text" placeholder="Votre Pseudo">
-        </div>
-<br>
-        <div>
-            <label for="">Email</label>
-            <input type="email" placeholder="Votre Email">
-        </div>
-<br>
-        <div>
-            <label for="">Mot de Passe</label>
-            <input type="password" placeholder="Votre Mot de Passe">
-        </div>
-<br>
-        <div>
-            <label for="">Confirmer le Mot de Passe</label>
-            <input type="password" placeholder="Votre Mot de Passe">
-        </div>
-<br>
-        <div>
-            <input type="submit" value="Inscription">
-        </div>
-    </form>
-        </main>
 
+
+        <form class="contain_form_sign-up" method="POST" action="sign.html">
+            <section class="form_sign-up contour_sign-up">
+                <div>
+                    <label for="">Nom :</label><br>
+                    <input class="input_form_sign-up" type="text" placeholder="Votre Nom" required>
+                </div>
+                <br>
+                <div>
+                    <label for="">Pseudo :</label><br>
+                    <input class="input_form_sign-up" type="text" placeholder="Votre Pseudo"required>
+                </div>
+                <br>
+                <div>
+                    <label for="">Email :</label><br>
+                    <input class="input_form_sign-up" type="email" placeholder="Votre Email"required>
+                </div>
+                <br>
+                <div>
+                    <label for="">Mot de Passe :</label><br>
+                    <input class="input_form_sign-up" type="password" placeholder="Votre Mot de Passe"required>
+                </div>
+                <br>
+                <div>
+                    <label for="">Confirmer le Mot de Passe :</label><br>
+                    <input class="input_form_sign-up" type="password" placeholder="Votre Mot de Passe"required>
+                </div>
+                <br>
+                <div>
+                    <input class="input_form_sign-up submit_sign_up" type="submit" value="Inscription">
+                </div>
+            </section>
+        </form>
+  
+    </main>
 
     <footer>
+    <hr>
+
         <p>&copy; - 2024 - Design by Sabri, Matt et Smyl</p>
         <img class="combatdbz" src="img/dragonball.gif" alt="combatdbz" width="100px" height="80px">
     </footer>
 </body>
+
 </html>
