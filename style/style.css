@@ -4,21 +4,25 @@
     display:flex;
 }
 body{
+
     font-family: "Reggae One", system-ui;
     font-weight: 400;
     font-style: normal;
     margin:0;
 }
-
 /* Début du header */
 header{
     background-color: #252424;
+
 }
 
 nav .containmenu{    
+
     padding:1.5rem;
     justify-content: center;
+
 }
+
 .containmenu .menu{
     color: yellow;
     margin: 0 3rem; 
@@ -32,37 +36,43 @@ nav .containmenu{
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .contain-img{
+
     justify-content: center;
 }
-
 .dbzsize{
     margin-top: 1rem;
     width: 25rem;
-}
 
+}
 .menu:hover{ 
+
     box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 30px 20px 22px -30px rgba(0,0,0,0);
     color:red;
     background-color: yellow;
     border: solid 2px red;
-}
 
+}
  .containmenu a{
+    box-shadow: 2px -1px 38px 0px rgba(244,3,3,1);
+    -webkit-box-shadow: 2px -1px 38px 0px rgba(244,3,3,1);
+    -moz-box-shadow: 2px -1px 38px 0px rgba(244,3,3,1);
     text-decoration: none;
     color: black;
 }
+
 .containmenu .active{
     color:red;
     background-color: yellow;
     border: solid 2px red;
+    
 }
 
 hr{
     border: solid 1px yellow;
     margin:0
 }
+
 /* Fin du header */
 
 /* Debut du main */
@@ -70,32 +80,41 @@ main{
     background-image: url(../img/backgrooundDBZ.jpg);
     background-size: cover;
 }
+.pasfinis{
+    margin: 0;
+    padding-bottom:40rem;
 
+}
 h1{
     margin-top: 0;
     text-align: center;
 }
+
+
 /* Début sign-up */
-.contain_titre_sign-up{
+.contain_titre{
     padding-top:3rem;
     color:red;
 }
-.contour_sign-up{
+.contour{
     background-color: rgba(255, 255, 0, 0.417) ;
     border-radius: 0.5rem;
     border: solid 2px red;
+    box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
+    -webkit-box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
+    -moz-box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
 }
-h1.contour_sign-up{
+h1.contour{
     background-color: rgba(255, 255, 0, 0.705) ;
 }
-.titre_sign-up{
+.titre{
     margin: auto;
     width: 20rem;
 }
-.contain_form_sign-up{
+.contain_form{
     padding-bottom: 20rem;
 }
-.form_sign-up{
+.form{
     font-weight: bold;
     text-align: center;
     width: 24rem;
@@ -105,21 +124,21 @@ h1.contour_sign-up{
     font-size: 1.5rem;
     color:red;
 }
-.input_form_sign-up{
+.input_form{
     border-radius: .5rem;
     border: solid 2px red;
     font-size: 1.2rem;
     text-align: center;
     color: red;
 }
-.input_form_sign-up:focus{
+.input_form:focus{
     outline-color:red;
     color: red;
 }
-.input_form_sign-up::placeholder{
+.input_form::placeholder{
     color: rgba(255, 2, 2, 0.441);
 }
-.submit_sign_up{
+.submit{
     font-weight: bold;
     cursor: pointer;
     background-color: rgba(47, 139, 204, 0.724) ;
@@ -130,13 +149,30 @@ h1.contour_sign-up{
     transition:background-color .5s;
     border:solid 2px black;
 }
-.submit_sign_up:hover{
+.submit:hover{
     transition:color .5s;
     transition:background-color .5s;
     background-color: rgba(241, 105, 46, 0.778);
     color: yellow;
+    
+}
+.youtube{
+    padding-top: 13rem;
+justify-content: center;
+padding-bottom: 15rem;
+
+
+}
+iframe{
+    border-radius: 5px;
+    border: solid 3px rgba(255, 255, 0, 0.67);
+    box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
+    -webkit-box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
+    -moz-box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
 }
 /* Fin Sign-up */
+
+
 
 /* fin du main */
 
@@ -148,5 +184,18 @@ footer{
 }
 footer p{
     margin-top: 0;
+}
+.align{
+flex: auto;
+    padding: 2rem 0;
+    text-align: center;
+}
+.combatdbz{
+    margin: 0 2rem;
+}
+.combatdbz-2{
+    margin: 0 10rem;
+    padding-top: .5rem;
+    
 }
 /* Fin du footer */
