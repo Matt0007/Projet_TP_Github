@@ -150,6 +150,13 @@ h1.contour{
     color: yellow;
     
 }
+.youtube{
+    padding-top: 15rem;
+justify-content: center;
+padding-bottom: 15rem;
+
+
+}
 /* Fin Sign-up */
 
 
@@ -165,5 +172,12 @@ footer{
 footer p{
     margin-top: 0;
 }
-
+.align{
+flex: auto;
+    padding: 2rem 0;
+    text-align: center;
+}
+.combatdbz{
+    margin: 0 10rem;
+}
 /* Fin du footer */
