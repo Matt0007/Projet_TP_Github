@@ -185,6 +185,10 @@ flex: auto;
     text-align: center;
 }
 .combatdbz{
+    margin: 0 2rem;
+}
+.combatdbz-2{
     margin: 0 10rem;
+    padding-top: .5rem;
 }
 /* Fin du footer */
