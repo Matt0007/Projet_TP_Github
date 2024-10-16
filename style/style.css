@@ -16,10 +16,8 @@ header{
 }
 
 nav .containmenu{    
-
     padding:1.5rem;
     justify-content: center;
-
 }
 .containmenu .menu{
     color: yellow;
@@ -36,7 +34,6 @@ nav .containmenu{
 }
 
 .contain-img{
-
     justify-content: center;
 }
 
@@ -138,7 +135,6 @@ h1.contour_sign-up{
     transition:background-color .5s;
     background-color: rgba(241, 105, 46, 0.778);
     color: yellow;
-    
 }
 /* Fin Sign-up */
 
