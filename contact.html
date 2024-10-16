@@ -1,74 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
 
-<body>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
     <header>
+      <nav class="containnav">
+        <section class="flex contain-img">
+          <img class="dbzsize" src="img/DBZ_Logo.png" alt="Logo D" />
+        </section>
 
-        <nav class=" containnav">
-            <section class="flex contain-img">
-                <img class="dbzsize" src="img/DBZ_Logo.png" alt="Logo D">
-            </section>
-
-            <section class="flex containmenu">
-
-                <a class="menu" href="index.html">Home</a>
-                <a class="menu" href="sign-up.html">Sign-up</a>
-                <a class="menu " href="sign.html">Sign</a>
-                <a class="menu active" href="contact.html">Contact</a>
-            </section>
-
-        </nav>
-        <hr>
+        <section class="flex containmenu">
+          <a class="menu" href="index.html">Home</a>
+          <a class="menu" href="sign-up.html">Sign-up</a>
+          <a class="menu" href="sign.html">Sign</a>
+          <a class="menu active" href="contact.html">Contact</a>
+        </section>
+      </nav>
+      <hr />
     </header>
 
-    <main >
-        <div class="contain_titre">
-            <h1 class="titre contour">Formulaire de contact</h1>
-        </div>
-        <form class="contain_form" action="/submit" method="POST">
+    <main>
+      <div class="contain_titre">
+        <h1 class="titre contour">Formulaire de contact</h1>
+      </div>
 
-            <section class="form contour">
-
-                <p class="champs">Champs obligatoires *</p>
-                <br>
-                <div>
-                    <label for="nom">Pseudo*</label><br>
-                    <input class="input_form" type="text" id="pseudo" name="pseudo" required>
-                </div>
-                <br>
-                <div>
-                    <label for="message">Message :</label><br>
-                    <textarea class="input_form" id="message" name="message" rows="5" cols="33"
-                        placeholder="Saisissez votre message" required></textarea>
-                </div>
-                <br>
-                <div>
-                    <input class="input_form submit" type="submit" name="Envoyer">
-                </div>
-            </section>
-        </form>
+      <form class="contain_form" action="/submit" method="POST">
+        <section class="form contour">
+          <p class="champs">Champs obligatoires *</p>
+          <br />
+          <div>
+            <label for="nom">Pseudo*</label><br />
+            <input
+              class="input_form"
+              type="text"
+              id="pseudo"
+              name="pseudo"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="message">Message :</label><br />
+            <textarea
+              class="input_form"
+              id="message"
+              name="message"
+              rows="5"
+              cols="33"
+              placeholder="Saisissez votre message"
+              required
+            ></textarea>
+          </div>
+          <br />
+          <div>
+            <input class="input_form submit" type="submit" name="Envoyer" />
+          </div>
+        </section>
+      </form>
     </main>
+
     <footer>
-        <hr>
-        <div class="flex">
-            <img class=" combatdbz combatdbz-2" src="img/dragonb.gif" alt="combatdbz"  width="100px" height="80px">
-            <img class="combatdbz" src="img/dragonball.gif" alt="combatdbz" width="100px" height="80px">
-            
-            <p class="align">&copy; - 2024 - Design by Sabri, Matt et Smyl</p>
-            
-            <img class="combatdbz" src="img/dragonball.gif" alt="combatdbz" width="100px" height="80px">
-            <img class="combatdbz combatdbz-2" src="img/dragonb.gif" alt="combatdbz" width="100px" height="80px">
-            
-        </div>
+      <hr />
+
+      <div class="flex">
+        <img
+          class="combatdbz combatdbz-2"
+          src="img/dragonb.gif"
+          alt="combatdbz"
+          width="100px"
+          height="80px"
+        />
+        <img
+          class="combatdbz"
+          src="img/dragonball.gif"
+          alt="combatdbz"
+          width="100px"
+          height="80px"
+        />
+
+        <p class="align">&copy; - 2024 - Design by Sabri, Matt et Smyl</p>
+
+        <img
+          class="combatdbz"
+          src="img/dragonball.gif"
+          alt="combatdbz"
+          width="100px"
+          height="80px"
+        />
+        <img
+          class="combatdbz combatdbz-2"
+          src="img/dragonb.gif"
+          alt="combatdbz"
+          width="100px"
+          height="80px"
+        />
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
