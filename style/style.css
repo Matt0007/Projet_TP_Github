@@ -97,6 +97,9 @@ h1{
     background-color: rgba(255, 255, 0, 0.417) ;
     border-radius: 0.5rem;
     border: solid 2px red;
+    box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
+    -webkit-box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
+    -moz-box-shadow: 2px -1px 80px 0px rgba(244,3,3,1);
 }
 h1.contour{
     background-color: rgba(255, 255, 0, 0.705) ;
